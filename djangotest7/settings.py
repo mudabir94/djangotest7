@@ -73,8 +73,6 @@ WSGI_APPLICATION = 'djangotest7.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-
-
 if 'RDS_HOSTNAME' in os.environ:
     DATABASES = {
         'default': {
@@ -90,7 +88,7 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': '',
+            'NAME': 'django_test7db',
             'USER': 'root',
             'PASSWORD': 'Opensesame1',
             'HOST': 'localhost',
