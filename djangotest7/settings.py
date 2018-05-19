@@ -73,7 +73,7 @@ WSGI_APPLICATION = 'djangotest7.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-DATABASES = {
+
 
 if 'RDS_HOSTNAME' in os.environ:
     DATABASES = {
@@ -97,7 +97,7 @@ else:
             'PORT': '3306',
         }
     }
-}
+
 
 
 # Password validation
