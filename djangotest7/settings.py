@@ -31,12 +31,15 @@ ALLOWED_HOSTS = ['djangotest7-env.9f2xnkmqjq.eu-west-2.elasticbeanstalk.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'd7app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    
     'django.contrib.staticfiles',
+
 ]
 
 MIDDLEWARE = [
